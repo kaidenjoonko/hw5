@@ -1,6 +1,5 @@
 #ifndef WORDLE_H
 #define WORDLE_H
-
 #ifndef RECCHECK
 #include <set>
 #include <string>
@@ -17,6 +16,9 @@
  * @param [in] dict - Dictionary of strings of legal words
  * @return std::set<std::string> - Set of all words that meet the criteria
  */
+
+//helper
+
 std::set<std::string> wordle(
     const std::string& in,
     const std::string& floating,
